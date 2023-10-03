@@ -1,3 +1,6 @@
-# cs302Notes
+# Fall '23 CS 302 notes
 
-A collection of markdown notes taken during lecture. 
+A collection of markdown notes taken during lecture. This is for Beiyu Lin's Fall 2023 CS302. If you aren't in that class, skedadle!
+ 
+
+## Please feel free to fork this repo and add suggestions!
