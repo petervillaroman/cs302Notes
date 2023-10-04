@@ -5,7 +5,7 @@
 
 ### 50 25 75 50 80 20 30 10 15
 
-this requies a double rotation. 
+this requires a double rotation. 
 
 first, we need to perform a left rotation on the right subtree of the root node. 
 
@@ -23,3 +23,14 @@ then, we need to perform a left rotation on the root node.
 
 
 this is right heavy => right rotation THEN left rotation
+
+
+## SUMMARY 
+
+Single rotation for a left heavy tree: is a right rotation
+Single rotation for a right heavy tree: is a left rotation
+
+Double rotation for a left heavy tree: is a left rotation on the right subtree of the root node, then a right rotation on the root node
+
+Double rotation for a right heavy tree: is a right rotation on the left subtree of the root node, then a left rotation on the root node
+
