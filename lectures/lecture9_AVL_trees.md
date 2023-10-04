@@ -52,3 +52,22 @@ rightRotation(node* root){
     return temp;
 }
 ```
+
+
+Left rotate:
+
+- rotate the right subtree
+- root of right subtree -> replace the root cause 
+- root cause will be left subtree of new element 
+
+- if left node exists for the initial root of the right subtree then the left node of the root of the right subtree will be the right node of the initial root of the right subtree
+
+ 
+ Right rotate: 
+
+- rotate the left subtree
+- root of left subtree -> replace the root cause
+- root cause will be right subtree of new element
+
+- if right node exists for the initial root of the left subtree then the right node of the root of the left subtree will be the left node of the initial root of the left subtree
+
