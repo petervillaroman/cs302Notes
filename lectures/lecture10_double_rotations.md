@@ -1,2 +1,25 @@
 # double rotations for AVL trees
 
+## This is a left heavy tree
+ 
+
+### 50 25 75 50 80 20 30 10 15
+
+this requies a double rotation. 
+
+first, we need to perform a left rotation on the right subtree of the root node. 
+
+then, we need to perform a right rotation on the root node.
+
+
+
+## This is a right heavy tree 
+
+### 50 , 25, 75, 20, 90 , 70, 100, 95
+
+this requires a double rotation 
+first, we need to perform a right rotation on the left subtree of the root node. 
+then, we need to perform a left rotation on the root node.
+
+
+this is right heavy => right rotation THEN left rotation
